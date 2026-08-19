@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>About Us | Nexoria Solution Digital Agency</title>
+  <meta name="description"
+    content="Learn about Nexoria Solution. We help brands grow their reach, strategy, and online assets through end-to-end web development, digital marketing, branding, and SEO." />
+  <meta name="keywords"
+    content="About Nexoria Solution, digital agency story, web development team, digital marketing agency, growth team" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header class="header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="./logo.png" alt="Nexoria Solution Logo" class="logo-img" />
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+
+          <li class="nav-item-dropdown">
+            <a href="services.html" class="nav-link dropdown-toggle">
+              Services <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+            </a>
+
+            <div class="mega-menu">
+              <div class="mega-menu-pointer"></div>
+
+              <div class="mega-menu-grid">
+                <!-- Column 1: STRATEGY & INSIGHT -->
+                <div class="mega-column">
+                  <div class="mega-column-title">
+                    <span>STRATEGY & INSIGHT</span>
+                  </div>
+                  <div class="mega-items">
+                    <a href="service-digital-marketing.html" class="mega-item">
+                      <div class="mega-icon icon-purple">
+                        <i class="fa-solid fa-bullseye"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">Digital Marketing Strategy</span>
+                        <span class="mega-item-desc">Data-driven growth & positioning</span>
+                      </div>
+                    </a>
+                    <a href="service-analytics-growth.html" class="mega-item">
+                      <div class="mega-icon icon-blue">
+                        <i class="fa-solid fa-chart-line"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">Data Analytics & Growth</span>
+                        <span class="mega-item-desc">Conversion tracking & insights</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Column 2: REACH & PERFORMANCE -->
+                <div class="mega-column">
+                  <div class="mega-column-title">
+                    <span>REACH & PERFORMANCE</span>
+                  </div>
+                  <div class="mega-items">
+                    <a href="service-seo-search.html" class="mega-item">
+                      <div class="mega-icon icon-indigo">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">SEO & AI Search</span>
+                        <span class="mega-item-desc">Rank #1 on Google & AI engines</span>
+                      </div>
+                    </a>
+                    <a href="service-ppc-ad-management.html" class="mega-item">
+                      <div class="mega-icon icon-sky">
+                        <i class="fa-solid fa-rectangle-ad"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">PPC & Ad Management</span>
+                        <span class="mega-item-desc">High ROI paid campaign ads</span>
+                      </div>
+                    </a>
+                    <a href="service-social-media.html" class="mega-item">
+                      <div class="mega-icon icon-pink">
+                        <i class="fa-solid fa-comments"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">Social Media Management</span>
+                        <span class="mega-item-desc">Engage & scale your audience</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Column 3: BRAND & CREATIVE -->
+                <div class="mega-column">
+                  <div class="mega-column-title">
+                    <span>BRAND & CREATIVE</span>
+                  </div>
+                  <div class="mega-items">
+                    <a href="service-branding-identity.html" class="mega-item">
+                      <div class="mega-icon icon-teal">
+                        <i class="fa-solid fa-palette"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">Branding & Visual Design</span>
+                        <span class="mega-item-desc">Logo, identity & guidelines</span>
+                      </div>
+                    </a>
+                    <a href="service-content-marketing.html" class="mega-item">
+                      <div class="mega-icon icon-emerald">
+                        <i class="fa-solid fa-pen-nib"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">Content Strategy & Creation</span>
+                        <span class="mega-item-desc">Copywriting, visuals & stories</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Column 4: WEB & BUILD -->
+                <div class="mega-column">
+                  <div class="mega-column-title">
+                    <span>WEB & BUILD</span>
+                  </div>
+                  <div class="mega-items">
+                    <a href="service-web-development.html" class="mega-item">
+                      <div class="mega-icon icon-violet">
+                        <i class="fa-solid fa-laptop-code"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">Website Design & Build</span>
+                        <span class="mega-item-desc">Modern, fast & responsive sites</span>
+                      </div>
+                    </a>
+                    <a href="service-ecommerce-development.html" class="mega-item">
+                      <div class="mega-icon icon-amber">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">E-Commerce Solutions</span>
+                        <span class="mega-item-desc">Storefronts built to convert</span>
+                      </div>
+                    </a>
+                    <a href="service-ux-ui-design.html" class="mega-item">
+                      <div class="mega-icon icon-cyan">
+                        <i class="fa-solid fa-bezier-curve"></i>
+                      </div>
+                      <div class="mega-item-content">
+                        <span class="mega-item-title">UX / UI Product Design</span>
+                        <span class="mega-item-desc">Intuitive interfaces & wireframes</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mega Dropdown Footer -->
+              <div class="mega-menu-footer">
+                <div class="mega-footer-text">
+                  <i class="fa-solid fa-sparkles"></i>
+                  <span>Full-service digital growth agency, end to end.</span>
+                </div>
+                <a href="services.html" class="mega-footer-btn">
+                  <span>See all services</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="index.html#blog" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary open-audit-modal">
+          <i class="fa-solid fa-calendar-check"></i> <span>Book a Free Call</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       1. About Hero Section
+       ========================================================================== -->
+  <section class="hero" id="about-hero" style="background: var(--bg-midnight); padding: 180px 0 100px;">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="eyebrow eyebrow-dark">
+          <i class="fa-solid fa-building-user"></i> About Nexoria Solution
+        </div>
+        <h1>We're Here To Scale Your <span class="gradient-text">Digital Impact</span></h1>
+        <p class="subheadline">
+          Nexoria Solution is an end-to-end digital agency. From high-converting web builds to data-driven marketing and
+          SEO, we engineer growth for ambitious brands worldwide.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#our-story" class="btn btn-primary">
+            Discover Our Story <i class="fa-solid fa-arrow-down"></i>
+          </a>
+          <a href="contact.html" class="btn btn-secondary open-audit-modal">
+            <i class="fa-solid fa-calendar-check"></i> Book a Free Call
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-preview">
+          <img src="./assets/about_hero_visual.jpg" alt="About Nexoria Solution - Digital Growth Gateway"
+            class="hero-3d-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2. Unique Mission Section
+       ========================================================================== -->
+  <section class="mission-unique-section" id="our-mission">
+    <div class="container">
+      <div class="mission-glass-card">
+        <div class="mission-card-top">
+          <div class="mission-badge">
+            <i class="fa-solid fa-bullseye"></i> OUR CORE MISSION
+          </div>
+          <span class="quote-mark"><i class="fa-solid fa-quote-right"></i></span>
+        </div>
+
+        <h2 class="mission-headline">
+          Every brand deserves a <span class="gradient-text">powerful digital presence</span>.
+        </h2>
+
+        <p class="mission-body-desc">
+          We've helped 50+ brands scale their online visibility and revenue across 10+ countries, working with startups,
+          e-commerce stores, and established enterprises alike.
+        </p>
+
+        <div class="mission-metrics-grid">
+          <div class="mission-metric-item">
+            <div class="mission-metric-icon">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="mission-metric-text">
+              <strong>50+</strong>
+              <span>Brands Scaled</span>
+            </div>
+          </div>
+
+          <div class="mission-metric-item">
+            <div class="mission-metric-icon" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);">
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+            <div class="mission-metric-text">
+              <strong>10+</strong>
+              <span>Countries Served</span>
+            </div>
+          </div>
+
+          <div class="mission-metric-item">
+            <div class="mission-metric-icon" style="background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="mission-metric-text">
+              <strong>100%</strong>
+              <span>End-to-End Execution</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. Our Story & Impact
+       ========================================================================== -->
+  <section class="about-section" id="our-story" style="padding: 110px 0;">
+    <div class="container about-grid">
+      <div class="about-image-wrapper">
+        <img src="./assets/about_team.jpg" alt="Nexoria Solution Team Collaboration" class="about-img" />
+        <div class="about-badge-overlay">
+          <div class="num">10+</div>
+          <div class="lbl">Years Experience</div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="eyebrow">
+          <i class="fa-solid fa-book-open"></i> How It Started
+        </div>
+        <h2>Our Story</h2>
+        <p class="body-text" style="font-weight: 600; color: #1e293b;">
+          Nexoria Solution started with a simple belief: digital growth shouldn't be guesswork.
+        </p>
+        <p class="body-text">
+          We bring together developers, marketers, and designers under one roof so brands don't have to juggle five
+          different vendors to grow online. From concept to conversion, we handle it all—one in-house team, full
+          oversight, no outsourcing confusion.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. What We Do (7 Pillars)
+       ========================================================================== -->
+  <section class="services-section" style="background: #ffffff; padding: 100px 0;">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">
+          <i class="fa-solid fa-layer-group"></i> Core Capabilities
+        </div>
+        <h2>What We Do</h2>
+        <p>Full-service digital execution backed by data-driven strategies and creative design excellence.</p>
+      </div>
+
+      <div class="what-we-do-grid">
+        <!-- 1. Web Development & Design -->
+        <div class="what-card">
+          <div class="what-card-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Web Development &amp; Design</h3>
+          <p>Fast, clean, responsive websites engineered specifically to convert visitors into customers.</p>
+        </div>
+
+        <!-- 2. Digital Marketing (SEO, PPC, Social) -->
+        <div class="what-card">
+          <div class="what-card-icon" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);"><i
+              class="fa-solid fa-bullhorn"></i></div>
+          <h3>Digital Marketing</h3>
+          <p>Multi-channel growth engines encompassing Search Engine Optimization (SEO), PPC Ads, and Social Media.</p>
+        </div>
+
+        <!-- 3. UX/UI Design -->
+        <div class="what-card">
+          <div class="what-card-icon" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);"><i
+              class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>UX/UI Design</h3>
+          <p>User-centered interface design, interactive wireframing, and intuitive design systems.</p>
+        </div>
+
+        <!-- 4. Branding & Identity -->
+        <div class="what-card">
+          <div class="what-card-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);"><i
+              class="fa-solid fa-pen-nib"></i></div>
+          <h3>Branding &amp; Identity</h3>
+          <p>Memorable visual identities, brand storytelling, guidelines, and corporate collateral.</p>
+        </div>
+
+        <!-- 5. E-commerce Solutions -->
+        <div class="what-card">
+          <div class="what-card-icon" style="background: linear-gradient(135deg, #10b981, #059669);"><i
+              class="fa-solid fa-cart-shopping"></i></div>
+          <h3>E-commerce Solutions</h3>
+          <p>High-performing online stores built on Shopify, WooCommerce, and custom frameworks.</p>
+        </div>
+
+        <!-- 6. Content Marketing -->
+        <div class="what-card">
+          <div class="what-card-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5);"><i
+              class="fa-solid fa-file-pen"></i></div>
+          <h3>Content Marketing</h3>
+          <p>Compelling copywriting, whitepapers, blogs, and strategic content distribution.</p>
+        </div>
+
+        <!-- 7. Analytics & Growth Consulting -->
+        <div class="what-card" style="grid-column: span 1;">
+          <div class="what-card-icon" style="background: linear-gradient(135deg, #ec4899, #be185d);"><i
+              class="fa-solid fa-chart-pie"></i></div>
+          <h3>Analytics &amp; Growth Consulting</h3>
+          <p>Conversion Rate Optimization (CRO), attribution modeling, and strategic roadmap consulting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. How We Work (01, 02, 03)
+       ========================================================================== -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">
+          <i class="fa-solid fa-sliders"></i> Proven Framework
+        </div>
+        <h2>How We Work</h2>
+        <p>A streamlined 3-step methodology designed for clarity, velocity, and measurable ROI.</p>
+      </div>
+
+      <div class="process-grid">
+        <!-- 01 We Listen -->
+        <div class="process-card">
+          <span class="process-step-num">01</span>
+          <h3>We Listen.</h3>
+          <p>We start by understanding what you actually need. We dive deep into your market, target audience, and
+            business targets before writing a single line of code.</p>
+        </div>
+
+        <!-- 02 We Execute -->
+        <div class="process-card">
+          <span class="process-step-num">02</span>
+          <h3>We Execute.</h3>
+          <p>Our team handles everything from start to finish. Designers, developers, and marketers work seamlessly
+            together for fast, pixel-perfect execution.</p>
+        </div>
+
+        <!-- 03 We Measure -->
+        <div class="process-card">
+          <span class="process-step-num">03</span>
+          <h3>We Measure.</h3>
+          <p>We track results and continuously optimize. Transparent reporting and data-backed iterations ensure your
+            growth compounds over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ==========================================================================
+       6. CTA Section
+       ========================================================================== -->
+  <section class="cta-banner-section">
+    <div class="cta-banner-overlay"></div>
+    <div class="container cta-banner-content">
+      <div class="eyebrow eyebrow-dark" style="margin-bottom: 1.25rem;">
+        <i class="fa-solid fa-phone"></i> Schedule Your Session
+      </div>
+      <h2>Ready to Scale Your Digital Impact?</h2>
+      <p>
+        Let's discuss your goals, analyze your current setup, and map out a custom strategy for growth.
+      </p>
+      <button class="btn btn-primary open-audit-modal" style="padding: 1rem 2.5rem; font-size: 1.05rem;">
+        Book a Free Call <i class="fa-solid fa-calendar-check"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. Footer
+       ========================================================================== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-brand">
+          <img src="./logo.png" alt="Nexoria Solution Logo" class="footer-logo" />
+          <p>A digital agency helping brands grow with marketing that's measured.</p>
+          <div class="social-links-flex">
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter X"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#services">Our Services</a></li>
+            <li><a href="index.html#why">Our Team</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#services">Digital Strategy Development</a></li>
+            <li><a href="index.html#services">Social Media Marketing</a></li>
+            <li><a href="index.html#services">Search Engine Optimization</a></li>
+            <li><a href="index.html#services">Email Marketing</a></li>
+            <li><a href="index.html#services">Pay-Per-Click Advertising</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Get In Touch -->
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>100 Innovation Blvd, Tech District, Suite 400</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>+1 (800) 555-GROW</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:hello@nexoriasolution.com" style="color:inherit;">hello@nexoriasolution.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-globe"></i>
+              <a href="http://www.nexoriasolution.com" target="_blank"
+                style="color:inherit;">www.nexoriasolution.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Nexoria Solution. All rights reserved.</div>
+        <div><a href="#" style="color:#94a3b8;">Privacy &amp; Cookie Policy</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Global Modal Container -->
+  <div class="modal-overlay" id="globalModalOverlay">
+    <div id="globalModalContent"></div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
