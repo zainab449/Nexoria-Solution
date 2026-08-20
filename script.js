@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       quote: "From strategy to execution, Nexoria handled everything. Our lead generation doubled within the first quarter.",
-      name: "Ahmed K.",
+      name: "John Doe",
       role: "SaaS Startup Founder",
       avatarBg: "#06b6d4"
     }
